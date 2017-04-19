@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-var WindowSizeService = Ember.Object.extend({
+var WindowSizeService = Ember.Service.extend({
 
   innerWidth: Ember.computed(function () {
     return Ember.$(window).innerWidth();
