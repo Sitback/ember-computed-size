@@ -28,6 +28,9 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
+  "dependencies": {
+    "ember-cli-babel": "^6.14.1",
+  },
   "keywords": [
     "ember-addon",
     "computed-size",
